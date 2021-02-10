@@ -1,0 +1,76 @@
+# Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
+# Copyright (c) 2017-present Sven Greb <code@svengreb.de>
+
+# Project:    Nord Alacritty
+# Version:    0.1.0
+# Repository: https://github.com/arcticicestudio/nord-alacritty
+# License:    MIT
+# References:
+#   https://github.com/alacritty/alacritty
+
+# Use custom cursor colors. If true, display the cursor in the cursor.foreground
+# and cursor.background colors, otherwise invert the colors of the cursor.
+
+# Adapted from Material theme - https://github.com/kaicataldo/material.vim
+#
+colors:
+   # Default colors
+   primary:
+     background: '0x1E1C31'
+     foreground: '0xD8DEE9'
+
+   # Normal colors
+   normal:
+     black:   '0x3B4252'
+     red:     '0xff5370'
+     green:   '0xA3BE8C'
+     yellow:  '0xEBCB8B'
+     blue:    '0x81A1C1'
+     magenta: '0xB48EAD'
+     cyan:    '0x88C0D0'
+     white:   '0xE5E9F0'
+     orange:  '0xf78c6c'
+
+   # Bright colors
+   bright:
+     black:   '0x3B4252'
+     red:     '0xff5370'
+     green:   '0xA3BE8C'
+     yellow:  '0xEBCB8B'
+     blue:    '0x81A1C1'
+     magenta: '0xB48EAD'
+     cyan:    '0x88C0D0'
+     white:   '0xE5E9F0'
+     orange:  '0xf78c6c'
+
+# Font configuration (changes require restart)
+font:
+  # The size to use.
+  size: 16
+  # The normal (roman) font face to use.
+  normal:
+    # family: MesloLGS NF
+    family: Victor Mono
+    # Style can be specified to pick a specific face.
+    style: Regular
+
+  # The bold font face
+  bold:
+    # family: MesloLGS NF
+    family: Victor Mono
+    # Style can be specified to pick a specific face.
+    style: Bold
+
+  # The italic font face
+  italic:
+    # family: MesloLGS NFa
+    family: Victor Mono
+    # Style can be specified to pick a specific face.
+    style: Italic
+
+# background_opacity: 0.8
+
+key_bindings:
+  - { key: Right, mods: Alt, chars: "\x1BF" }
+  - { key: Left,  mods: Alt, chars: "\x1BB" }
+
