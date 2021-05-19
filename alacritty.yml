@@ -1,16 +1,3 @@
-# Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
-# Copyright (c) 2017-present Sven Greb <code@svengreb.de>
-
-# Project:    Nord Alacritty
-# Version:    0.1.0
-# Repository: https://github.com/arcticicestudio/nord-alacritty
-# License:    MIT
-# References:
-#   https://github.com/alacritty/alacritty
-
-# Use custom cursor colors. If true, display the cursor in the cursor.foreground
-# and cursor.background colors, otherwise invert the colors of the cursor.
-
 # Adapted from Material theme - https://github.com/kaicataldo/material.vim
 #
 colors:
@@ -50,21 +37,25 @@ font:
   # The normal (roman) font face to use.
   normal:
     # family: MesloLGS NF
-    family: Victor Mono
+    # family: Victor Mono
+    family: Input Mono
     # Style can be specified to pick a specific face.
     style: Regular
 
   # The bold font face
   bold:
     # family: MesloLGS NF
-    family: Victor Mono
+    # family: Victor Mono
+    family: Input Mono
     # Style can be specified to pick a specific face.
     style: Bold
 
   # The italic font face
   italic:
     # family: MesloLGS NFa
-    family: Victor Mono
+    # family: Victor Mono
+    family: Input Mono
+    # family: InputMonoNarrow Light
     # Style can be specified to pick a specific face.
     style: Italic
 
@@ -73,4 +64,3 @@ font:
 key_bindings:
   - { key: Right, mods: Alt, chars: "\x1BF" }
   - { key: Left,  mods: Alt, chars: "\x1BB" }
-
