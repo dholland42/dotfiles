@@ -164,7 +164,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ['hyper-material-theme'],
+  plugins: ['hyper-rose-pine'],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
@@ -172,6 +172,17 @@ module.exports = {
   localPlugins: [],
 
   keymaps: {
+    "tab:next": [
+      "ctrl+shift+]",
+      "ctrl+alt+right",
+      "ctrl+tab"
+    ],
+    "tab:prev": [
+      "ctrl+shift+[",
+      "ctrl+alt+left",
+      "ctrl+shift+tab"
+    ],
+  
     // Example
     // 'window:devtools': 'cmd+alt+o',
   },
